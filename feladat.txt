@@ -1,0 +1,30 @@
+BevProg 2022.01.27. Géptermi Vizsga
+
+1.feladat 
+
+A mellékelt beugro program kiegészítése, hogy minden pontot megadjon a program. A programban már adott szöveget nem szabad módosítani, kizárólag a kommentjelzést szabad eltávolítani a main() függvényb?l. Munka közben javasolt folyamatosan haladni ellenoriz() függvényenként a kommentezés eltávolításával. A beugró akkor érvényes, ha minden pontot megkaptál, és nincs semmilyen módosítás a main() függvényben és az ellenoriz() makróban, illetve tilos új #define leírása is. 
+
+Figyelem: beugró nélkül nem értékeljük a második feladatot! 
+
+2. feladat
+
+A fájlban egy villamostechnikai bolt árlistája van. Egy sor így néz ki:
+|1060||számtábla réz 8/10mm|VI|db|100|1635|4059273004617|74199990|0.042
+Itt az elsõ adat egy azonosító ami nagyrész számjegyekbõl de emellet néha egyéb karakterekbõl is áll,
+a második a megnevezés
+a harmadik a kategória neve
+a negyedik az egység (legtöbbször db mint darab, de van más is)
+az ötödik a mennyiség egy csomagban
+a hatodik az ára a terméknek.
+a hetedik és nyolcadik kétféle vonalkód (megjegyzés: noha csak számjegyekbõl állnak, a számjegyek száma túl nagy az int típushoz)
+a kilencedik pedig a súlya egy egységnyi mennyiségû terméknek kilogramban (tehát a példában szereplõ termék összesen 4.2 kg)
+
+Feladatok:
+
+a) Mi a neve a három legnehezebb terméknek? (tetszõleges sorrendben, de mind csak egyszer kiírva)
+b) Sorold fel az egyedi csomagolási darabszámokat a termékek nevével együtt, vagyis azokat a termékeket amik darabra vannak és a darabszám olyan hogy nincs más termék olyan darabszámmal.
+c) bolhapiacra vinnénk a lehetõ legtöbb eszközt a lehetõ legolcsóbban, amire 10000 forintunk és 3kg teherbírású dobozunk van. Mit tegyünk a dobozba ha szeretnénk a lehetõ legtöbb eszközt így megvenni, egyféle termékbõl (megnevezés szerint) csak egy csomagnyit akarunk venni, csak a darabra mért eszközök közül válogatunk, és a sorrend amit megvizsgálunk, hogy a következõ elem belefér-e még a súlykorlátba, az fajlagos ár szerinti növekedõ sorrend?
+
+Pontozás:
+
+Az irányadó pontozási forma a következ?: max 10 pont a sikeres beugró, az a) b) c) feladatok m?ködése 10-10-10 pont, a második feladatban használt függvények eleganciája 10 pontig, a rekordok értelmes tervezése szintén 10 pontig értékelhet?, de összesen nem lehet több, mint az a) b) c) m?ködésre adott pontok összege - nem lehet nem m?köd? programra pontot kapni, csak mert szép. 
